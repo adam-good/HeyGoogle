@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+
+    "name": "Ok Google +",
+    "description": "My Personal Version of Ok Google",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "app/resources/icons/icon.png"
+    },
+
+    "icons": {
+            "16": "app/resources/icons/icon16.png",
+            "48": "app/resources/icons/icon48.png",
+            "128": "app/resources/icons/icon128.png"
+    },
+
+    "background": {
+        "scripts": ["app/src/background.js"]
+    },
+
+    "permissions": [
+        "audio",
+        "audioCapture",
+        "tabs",
+        "background"
+    ]
+}
